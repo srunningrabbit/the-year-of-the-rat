@@ -1,7 +1,4 @@
 /// Draw individual hearts and choose if they are full or half empty
-// Location of starting heart depending on view camera
-heart_pos_x = 0 - camera_get_view_width(view_camera[0]);
-heart_pos_y = 0 - camera_get_view_height(view_camera[0]) + 90;
 
 // Local health variables
 player_health = hp;
@@ -22,8 +19,5 @@ for (var i = 10; i <= max_hp; i += 10) {
 		_image_index += (player_health_frac > 5);
 	}
 	
-	draw_sprite(spr_heart, 
-	_image_index, 
-	heart_pos_x + (i * 1.5), 
-	heart_pos_y);
+	draw_sprite(spr_heart, _image_index, (i * 1.5), 10);
 }

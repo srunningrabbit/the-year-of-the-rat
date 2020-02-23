@@ -1,4 +1,4 @@
-///scr_get_input
+/// scr_get_input
 right_key = keyboard_check(ord("D"));
 left_key = -keyboard_check(ord("A"));
 down_key_pressed = keyboard_check_pressed(ord("S"));

@@ -1,6 +1,4 @@
 /// Init
-audio_play_sound(snd_background1, 1, true);
-
 state = scr_move_state;
 
 face = RIGHT;
