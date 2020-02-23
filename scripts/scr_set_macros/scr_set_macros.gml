@@ -1,4 +1,4 @@
-///scr_set_macros
+/// scr_set_macros
 
 #macro RIGHT 0
 #macro LEFT 1
