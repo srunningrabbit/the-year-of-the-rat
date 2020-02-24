@@ -4,7 +4,7 @@
     "mvc": "1.0",
     "IsDnDProject": false,
     "configs": [
-        
+
     ],
     "option_ecma": false,
     "parentProject": {
@@ -25,7 +25,7 @@
             }
         ],
         "hiddenResources": [
-            
+
         ],
         "projectPath": "${base_project}"
     },
@@ -292,14 +292,6 @@
                 "id": "953c573d-8f63-457f-861e-9c032852da26",
                 "resourcePath": "sprites\\spr_player_walk_R\\spr_player_walk_R.yy",
                 "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "9364900d-ba15-4785-99c5-ea8c5c179835",
-            "Value": {
-                "id": "e440b83f-c540-4992-9c29-71b4a6c060e9",
-                "resourcePath": "views\\9364900d-ba15-4785-99c5-ea8c5c179835.yy",
-                "resourceType": "GMFolder"
             }
         },
         {
