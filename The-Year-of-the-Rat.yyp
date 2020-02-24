@@ -47,14 +47,6 @@
             }
         },
         {
-            "Key": "1493baa0-3b6f-4ae4-82e3-1f3f7c3ed26d",
-            "Value": {
-                "id": "c3886f34-6244-4bf3-9cae-f7610706fc8b",
-                "resourcePath": "sprites\\spr_paint\\spr_paint.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "15d9abda-e8ee-4aa1-b2d9-b0658e9abb4e",
             "Value": {
                 "id": "7d34130e-3f93-4330-bdae-69610fbb4a58",
@@ -263,17 +255,10 @@
             }
         },
         {
-<<<<<<< HEAD
-            "Key": "6dbbd255-7531-4d85-9be4-60bffbf50f00",
-            "Value": {
-                "id": "f6ac68b1-9f1d-4e99-8371-4cb2aeea5828",
-                "resourcePath": "objects\\obj_paintbrush\\obj_paintbrush.yy",
-=======
             "Key": "72d9df62-1bd7-469d-a4d3-d9a91f726cb5",
             "Value": {
                 "id": "20ac1690-2334-4587-95e2-fd0b21df0eb2",
                 "resourcePath": "objects\\obj_music\\obj_music.yy",
->>>>>>> 4a7f3592eecaadc1a90baee3b6311153cd329b36
                 "resourceType": "GMObject"
             }
         },
@@ -302,19 +287,11 @@
             }
         },
         {
-<<<<<<< HEAD
-            "Key": "8c1adb81-08be-4953-bca7-a382676076b3",
-            "Value": {
-                "id": "310a345b-7852-40fd-8185-ffc8264985b5",
-                "resourcePath": "scripts\\scr_paintbrush\\scr_paintbrush.yy",
-                "resourceType": "GMScript"
-=======
             "Key": "9364900d-ba15-4785-99c5-ea8c5c179835",
             "Value": {
                 "id": "e440b83f-c540-4992-9c29-71b4a6c060e9",
                 "resourcePath": "views\\9364900d-ba15-4785-99c5-ea8c5c179835.yy",
                 "resourceType": "GMFolder"
->>>>>>> 4a7f3592eecaadc1a90baee3b6311153cd329b36
             }
         },
         {
@@ -331,14 +308,6 @@
                 "id": "9eea2bf8-5fde-48e0-8d82-b93867519666",
                 "resourcePath": "options\\linux\\options_linux.yy",
                 "resourceType": "GMLinuxOptions"
-            }
-        },
-        {
-            "Key": "a9200224-7cb7-4069-b99b-189e95a11345",
-            "Value": {
-                "id": "f117ac1a-da8a-4cdc-b16e-238f6129bf1c",
-                "resourcePath": "objects\\obj_paint\\obj_paint.yy",
-                "resourceType": "GMObject"
             }
         },
         {
@@ -475,8 +444,7 @@
         "b4e982b2-7f17-4651-9cad-98c4a8bffe2d",
         "15d9abda-e8ee-4aa1-b2d9-b0658e9abb4e",
         "22dc6e8c-528c-4e1b-bed4-4fc06b3309ec",
-        "3098feee-0819-4ff1-bdc5-d89a2a38bab0",
-        "8c1adb81-08be-4953-bca7-a382676076b3"
+        "3098feee-0819-4ff1-bdc5-d89a2a38bab0"
     ],
     "tutorial": ""
 }
