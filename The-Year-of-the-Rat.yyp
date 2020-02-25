@@ -4,7 +4,7 @@
     "mvc": "1.0",
     "IsDnDProject": false,
     "configs": [
-
+        
     ],
     "option_ecma": false,
     "parentProject": {
@@ -16,7 +16,8 @@
                 "Key": "ed6a955d-5826-4f98-a450-10b414266c27",
                 "Value": {
                     "configDeltas": [
-                        "inherited"
+                        "inherited",
+                        "inherited_e0f34677-ac4a-482e-bb90-3afbdc9d4b56"
                     ],
                     "id": "983903ae-56ec-4508-9ea4-0d6469cc79a2",
                     "resourcePath": "options\\main\\options_main.yy",
@@ -25,7 +26,7 @@
             }
         ],
         "hiddenResources": [
-
+            
         ],
         "projectPath": "${base_project}"
     },
@@ -196,6 +197,14 @@
                 "id": "e652e1d2-0275-4933-a1bc-78e155ec8314",
                 "resourcePath": "views\\4e0117a2-cf2a-4b47-93d7-4fc6b1ab2f23.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "4f3d31a5-3522-4fe4-8224-f8fb863061f3",
+            "Value": {
+                "id": "5b39b43c-7fc7-4050-8f62-7e27a92970b5",
+                "resourcePath": "tilesets\\tileset1\\tileset1.yy",
+                "resourceType": "GMTileSet"
             }
         },
         {
@@ -476,6 +485,14 @@
                 "id": "e1857050-bbfc-424b-957c-2366560ecb4a",
                 "resourcePath": "views\\fbb52b90-ab65-4317-b847-06fc5f7eccac.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "fe87b101-a823-4bfd-bfd1-f223c5e15d65",
+            "Value": {
+                "id": "fae63da1-6537-4e4b-97e4-3212a678798d",
+                "resourcePath": "sprites\\spr_lvl1Tiles\\spr_lvl1Tiles.yy",
+                "resourceType": "GMSprite"
             }
         }
     ],
