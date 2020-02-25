@@ -392,14 +392,6 @@
             }
         },
         {
-            "Key": "d6de2880-760e-47eb-80b6-2e91a2282b02",
-            "Value": {
-                "id": "de1ef73e-c06c-4a06-af3a-08ba7fada6be",
-                "resourcePath": "objects\\obj_bakcground\\obj_bakcground.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "da918879-67b2-49d1-8057-377fb6721c27",
             "Value": {
                 "id": "b969ffe5-2d3d-4bd9-9650-bb9c7f16d58b",
