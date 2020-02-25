@@ -10,4 +10,5 @@
 #macro DOWN_RIGHT 7
 #macro DOWN_LEFT 8
 
-#macro MOVE 0
+#macro IDLE 0
+#macro MOVE 1

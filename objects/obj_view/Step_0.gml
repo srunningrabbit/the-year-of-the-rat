@@ -13,7 +13,7 @@ if (obj_input.resize_window)
 //Follow player
 if (camera_following != "none") {
 	view_x = camera_following.x - view_w/2;
-	view_y = (camera_following.y - 20) - view_h/2;
+	view_y = (camera_following.y + 40) - view_h/2;
 }
 
 //Clamp camera to room dimensions

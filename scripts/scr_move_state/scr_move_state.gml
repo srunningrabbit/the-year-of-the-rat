@@ -1,7 +1,5 @@
 /// scr_move_state
 
-obj_player.movement = MOVE;
-
 image_speed = 1;
 
 var bbox_side;
@@ -28,6 +26,9 @@ vsp -= vsp_fraction;
 /*
 Sprite indexes
 */
+
+if (move == 0) movement = IDLE;
+else movement = MOVE;
 
 // Moving right w/o jumping
 if (move > 0 && jumping == false) {
@@ -58,6 +59,7 @@ if (jumping == true) {
 
 // Jumping w/o moving
 if (jumping == true && move == 0) {
+	movement = MOVE;
 	// Face previous direction of movement
 	if (previousFace == RIGHT) {
 		if (vsp > 0) face = UP_RIGHT_D;
@@ -78,12 +80,6 @@ if (jumping == false && obj_input.right_key == false && obj_input.left_key == fa
 // Face sprite toward face direction
 if (face == RIGHT || face == UP_RIGHT_U || face == UP_RIGHT_D) obj_player.dir = RIGHT;
 if (face == LEFT || face == UP_LEFT_U || face == UP_LEFT_D) obj_player.dir = LEFT;
-
-// No movement in general
-if (move == 0) {
-	image_index = 0;
-}
-if (move != 0) scr_skip_frame(obj_player);
 
 /*
 Collision handling
