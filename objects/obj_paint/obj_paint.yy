@@ -4,7 +4,26 @@
     "mvc": "1.0",
     "name": "obj_paint",
     "eventList": [
-        
+        {
+            "id": "4131a47e-c751-4e4a-b329-42607016d6e9",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 2,
+            "m_owner": "e1443b5e-f864-4b22-8172-3d0a03979e1b"
+        },
+        {
+            "id": "9c568975-5c84-4058-bb39-025155387987",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "e1443b5e-f864-4b22-8172-3d0a03979e1b"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
