@@ -19,7 +19,7 @@ for (var i = 10; i <= max_hp; i += 10) {
 		_image_index += (player_health_frac > 5);
 	}
 	
-	draw_sprite(spr_heart, _image_index, (i * 1.5), 10);
+	draw_sprite(spr_heart, _image_index, (i * 1.5), 5);
 }
 
 //Game instructions
