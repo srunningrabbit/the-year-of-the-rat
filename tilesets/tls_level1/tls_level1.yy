@@ -2,7 +2,7 @@
     "id": "4f3d31a5-3522-4fe4-8224-f8fb863061f3",
     "modelName": "GMTileSet",
     "mvc": "1.11",
-    "name": "tileset1",
+    "name": "tls_level1",
     "auto_tile_sets": [
         
     ],
@@ -47,10 +47,10 @@
     ],
     "tile_animation_speed": 15,
     "tile_count": 16,
-    "tileheight": 24,
+    "tileheight": 36,
     "tilehsep": 0,
     "tilevsep": 0,
-    "tilewidth": 24,
+    "tilewidth": 36,
     "tilexoff": 0,
     "tileyoff": 0
 }

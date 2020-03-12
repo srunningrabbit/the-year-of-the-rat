@@ -211,7 +211,7 @@
             "Key": "4f3d31a5-3522-4fe4-8224-f8fb863061f3",
             "Value": {
                 "id": "5b39b43c-7fc7-4050-8f62-7e27a92970b5",
-                "resourcePath": "tilesets\\tileset1\\tileset1.yy",
+                "resourcePath": "tilesets\\tls_level1\\tls_level1.yy",
                 "resourceType": "GMTileSet"
             }
         },
@@ -245,6 +245,14 @@
                 "id": "dbc8906c-275e-4b69-b0d1-8a3c5e0c136a",
                 "resourcePath": "sounds\\snd_background2\\snd_background2.yy",
                 "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "65e701bc-cead-477f-b560-d5f81a1347b4",
+            "Value": {
+                "id": "b27c14ab-de80-420b-ad68-e34b4713bdce",
+                "resourcePath": "objects\\obj_bckgManager\\obj_bckgManager.yy",
+                "resourceType": "GMObject"
             }
         },
         {
