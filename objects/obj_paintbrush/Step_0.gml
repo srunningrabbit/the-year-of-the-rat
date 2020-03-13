@@ -1,5 +1,3 @@
-// Call paintbrush script
-//scr_paintbrush();
 // Click and drag to paint a path
 if (mouse_check_button(mb_left)) {
 	// Set x and y to the mouse location
