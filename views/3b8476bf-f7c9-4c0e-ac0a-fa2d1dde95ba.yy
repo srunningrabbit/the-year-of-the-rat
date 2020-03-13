@@ -12,6 +12,7 @@
         "df6b670a-b69c-428d-a19a-465afd9cd8a8",
         "e1443b5e-f864-4b22-8172-3d0a03979e1b",
         "65e701bc-cead-477f-b560-d5f81a1347b4"
+
     ],
     "filterType": "GMObject",
     "folderName": "objects",

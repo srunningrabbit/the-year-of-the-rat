@@ -19,10 +19,11 @@ for (var i = 10; i <= max_hp; i += 10) {
 		_image_index += (player_health_frac > 5);
 	}
 	
-	draw_sprite(spr_heart, _image_index, (i * 1.5), 10);
+	draw_sprite(spr_heart, _image_index, (i * 1.5), 5);
 }
 
 //Game instructions
+draw_set_color(c_white);
 draw_text_transformed(0, 30, "INSTRUCTIONS:", 0.4, 0.4, 0);
 draw_text_transformed(0, 40, "MOVE: WASD", 0.4, 0.4, 0);
 draw_text_transformed(0, 50, "JUMP: SPACEBAR", 0.4, 0.4, 0);
