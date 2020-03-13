@@ -112,6 +112,14 @@
             }
         },
         {
+            "Key": "29a43faf-9e6a-4a3d-8396-25b252141d89",
+            "Value": {
+                "id": "4ff7c106-9c7a-4f80-9425-4c209a7eb444",
+                "resourcePath": "sprites\\spr_cut\\spr_cut.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "2cbcb7cc-59ac-4f84-bda9-cca22857bd5b",
             "Value": {
                 "id": "7133f894-a7a5-4a5d-bf65-502267141353",
@@ -221,6 +229,22 @@
                 "id": "5b39b43c-7fc7-4050-8f62-7e27a92970b5",
                 "resourcePath": "tilesets\\tls_level1\\tls_level1.yy",
                 "resourceType": "GMTileSet"
+            }
+        },
+        {
+            "Key": "5247694f-4d36-426c-b35b-fe382943858e",
+            "Value": {
+                "id": "84c95f3f-4bfe-4c98-94d1-c0f23c743016",
+                "resourcePath": "objects\\obj_vine\\obj_vine.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "55e745d5-d776-41a5-ae30-ff5ecad43ac5",
+            "Value": {
+                "id": "03552345-0740-4b97-a65c-848f472f1a7b",
+                "resourcePath": "objects\\obj_cut\\obj_cut.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -360,6 +384,7 @@
             }
         },
         {
+
             "Key": "b1d236aa-410c-4319-a5d3-8165a920c652",
             "Value": {
                 "id": "7789cbd4-8227-401d-9238-7db3379e245e",
@@ -373,6 +398,22 @@
                 "id": "62e20a37-fe2f-4061-81c6-d984f73bbb40",
                 "resourcePath": "scripts\\scr_set_macros\\scr_set_macros.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "b77ee05c-8492-4f28-9138-6ea24943b1e0",
+            "Value": {
+                "id": "85f8bd92-c25f-4cd8-96a5-31747e3c6123",
+                "resourcePath": "sprites\\spr_vine\\spr_vine.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "be335f65-c854-460f-a1df-ebc58e4e4e83",
+            "Value": {
+                "id": "53d475d3-e6df-43db-96b8-f13ddfb9b81c",
+                "resourcePath": "objects\\obj_menu\\obj_menu.yy",
+                "resourceType": "GMObject"
             }
         },
         {
