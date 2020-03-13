@@ -23,6 +23,7 @@ for (var i = 10; i <= max_hp; i += 10) {
 }
 
 //Game instructions
+draw_set_color(c_white);
 draw_text_transformed(0, 30, "INSTRUCTIONS:", 0.4, 0.4, 0);
 draw_text_transformed(0, 40, "MOVE: WASD", 0.4, 0.4, 0);
 draw_text_transformed(0, 50, "JUMP: SPACEBAR", 0.4, 0.4, 0);
