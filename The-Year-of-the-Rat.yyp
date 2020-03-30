@@ -4,7 +4,7 @@
     "mvc": "1.0",
     "IsDnDProject": false,
     "configs": [
-
+        
     ],
     "option_ecma": false,
     "parentProject": {
@@ -26,11 +26,19 @@
             }
         ],
         "hiddenResources": [
-
+            
         ],
         "projectPath": "${base_project}"
     },
     "resources": [
+        {
+            "Key": "038b62d2-24e9-47e0-8f72-57ebef3c6977",
+            "Value": {
+                "id": "c2b636f2-f8cc-46a3-998a-e0ef7dee07cb",
+                "resourcePath": "objects\\obj_chisel\\obj_chisel.yy",
+                "resourceType": "GMObject"
+            }
+        },
         {
             "Key": "05750d05-56d8-4e48-bb30-80826a823751",
             "Value": {
@@ -400,7 +408,6 @@
             }
         },
         {
-
             "Key": "b1d236aa-410c-4319-a5d3-8165a920c652",
             "Value": {
                 "id": "7789cbd4-8227-401d-9238-7db3379e245e",
@@ -446,6 +453,14 @@
                 "id": "f423ac3d-1545-4bd7-b7ab-ef04c0c79e36",
                 "resourcePath": "views\\c0f55f6f-2c18-4101-92d6-a0bc260f9356.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "c4d9814c-b496-42be-8bf8-f8d8c9bad07b",
+            "Value": {
+                "id": "2505909a-aefe-4a31-9e9c-585838f6d747",
+                "resourcePath": "objects\\obj_chiselDamage\\obj_chiselDamage.yy",
+                "resourceType": "GMObject"
             }
         },
         {
