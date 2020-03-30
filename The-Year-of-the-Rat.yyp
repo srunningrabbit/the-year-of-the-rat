@@ -4,7 +4,7 @@
     "mvc": "1.0",
     "IsDnDProject": false,
     "configs": [
-        
+
     ],
     "option_ecma": false,
     "parentProject": {
@@ -26,7 +26,7 @@
             }
         ],
         "hiddenResources": [
-            
+
         ],
         "projectPath": "${base_project}"
     },
@@ -125,6 +125,14 @@
                 "id": "7133f894-a7a5-4a5d-bf65-502267141353",
                 "resourcePath": "sprites\\spr_heart\\spr_heart.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "2def1223-7254-451a-afe9-77ca1c441056",
+            "Value": {
+                "id": "de1ef73e-c06c-4a06-af3a-08ba7fada6be",
+                "resourcePath": "objects\\obj_background\\obj_background.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -381,6 +389,14 @@
                 "id": "af79d3ac-82f9-4f1c-bc2c-b067929f884e",
                 "resourcePath": "sprites\\spr_solid\\spr_solid.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "b173bc42-89d6-4c37-a706-50f28f44e3ca",
+            "Value": {
+                "id": "2a819555-da42-41a2-9fa2-99f743d406c7",
+                "resourcePath": "objects\\obj_scissors\\obj_scissors.yy",
+                "resourceType": "GMObject"
             }
         },
         {
