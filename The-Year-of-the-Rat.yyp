@@ -4,7 +4,7 @@
     "mvc": "1.0",
     "IsDnDProject": false,
     "configs": [
-
+        
     ],
     "option_ecma": false,
     "parentProject": {
@@ -26,7 +26,7 @@
             }
         ],
         "hiddenResources": [
-
+            
         ],
         "projectPath": "${base_project}"
     },
@@ -53,6 +53,14 @@
                 "id": "03f7b6d6-0994-47a2-a596-1ea0b334dc31",
                 "resourcePath": "sprites\\spr_player_walk_L\\spr_player_walk_L.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "1060a510-189b-4e2c-8abb-948b658713e4",
+            "Value": {
+                "id": "4d846678-6089-4b09-9b3b-6c4ef5b1cf68",
+                "resourcePath": "objects\\obj_collectible\\obj_collectible.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -344,6 +352,14 @@
             }
         },
         {
+            "Key": "7f34e3c6-c7cf-4cb0-a546-86f844beecf8",
+            "Value": {
+                "id": "c7868a72-77ce-4f49-894d-a08a617e81a2",
+                "resourcePath": "sprites\\spr_cheese\\spr_cheese.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "8010158b-bb61-4a86-b677-4008b57209e0",
             "Value": {
                 "id": "12c335a4-a2fe-4611-896d-bed7db8e8d7f",
@@ -400,7 +416,6 @@
             }
         },
         {
-
             "Key": "b1d236aa-410c-4319-a5d3-8165a920c652",
             "Value": {
                 "id": "7789cbd4-8227-401d-9238-7db3379e245e",
