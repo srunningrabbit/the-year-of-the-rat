@@ -4,7 +4,7 @@
     "mvc": "1.0",
     "IsDnDProject": false,
     "configs": [
-        
+
     ],
     "option_ecma": false,
     "parentProject": {
@@ -26,7 +26,7 @@
             }
         ],
         "hiddenResources": [
-            
+
         ],
         "projectPath": "${base_project}"
     },
@@ -304,12 +304,12 @@
             }
         },
         {
-            "Key": "65e701bc-cead-477f-b560-d5f81a1347b4",
-            "Value": {
-                "id": "b27c14ab-de80-420b-ad68-e34b4713bdce",
-                "resourcePath": "objects\\obj_bckgManager\\obj_bckgManager.yy",
-                "resourceType": "GMObject"
-            }
+          "Key": "65e701bc-cead-477f-b560-d5f81a1347b4",
+          "Value": {
+              "id": "b27c14ab-de80-420b-ad68-e34b4713bdce",
+              "resourcePath": "objects\\obj_bckgManager\\obj_bckgManager.yy",
+              "resourceType": "GMObject"
+          }
         },
         {
             "Key": "674a8caa-3246-420b-87f4-68399811032f",

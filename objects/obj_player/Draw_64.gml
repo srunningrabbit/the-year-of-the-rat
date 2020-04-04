@@ -28,4 +28,4 @@ draw_text_transformed(0, 30, "INSTRUCTIONS:", 0.4, 0.4, 0);
 draw_text_transformed(0, 40, "MOVE: WASD, SPRINT: SHIFT", 0.4, 0.4, 0);
 draw_text_transformed(0, 50, "JUMP: SPACEBAR", 0.4, 0.4, 0);
 draw_text_transformed(0, 60, "DRAW PATH: HOLD LEFT CLICK ON MOUSE", 0.4, 0.4, 0);
-draw_text_transformed(0, 70, "YOU CAN WALK ON THESE PATHS", 0.4, 0.4, 0);
+draw_text_transformed(0, 70, "MENU: M", 0.4, 0.4, 0);
