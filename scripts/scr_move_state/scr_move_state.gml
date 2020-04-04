@@ -23,6 +23,11 @@ hsp -= hsp_fraction;
 vsp_fraction = vsp mod 1;
 vsp -= vsp_fraction;
 
+// Sprinting
+if (keyboard_check(vk_shift)) {
+	hsp *= 2;
+}
+
 /*
 Sprite indexes
 */
