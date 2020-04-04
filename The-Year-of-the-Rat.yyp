@@ -4,7 +4,7 @@
     "mvc": "1.0",
     "IsDnDProject": false,
     "configs": [
-
+        
     ],
     "option_ecma": false,
     "parentProject": {
@@ -26,7 +26,7 @@
             }
         ],
         "hiddenResources": [
-
+            
         ],
         "projectPath": "${base_project}"
     },
@@ -280,6 +280,14 @@
             }
         },
         {
+            "Key": "5ab836ba-b8b3-43fa-9f71-7def7dc53642",
+            "Value": {
+                "id": "5029c9db-ad6c-421d-a086-25dde2ae0779",
+                "resourcePath": "rooms\\room1\\room1.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "60e37851-89e6-403a-9759-2c960c0cd7e2",
             "Value": {
                 "id": "43f2d1b5-1aee-46e8-b16f-51ceb9b49667",
@@ -324,6 +332,14 @@
             "Value": {
                 "id": "5bda0863-209a-4dc6-b359-a59bf3d2515f",
                 "resourcePath": "objects\\obj_rat\\obj_rat.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "6a695ed3-5a13-4596-b453-79ec5a25503a",
+            "Value": {
+                "id": "0eed81a6-d0d8-43ec-a0bd-1f57655a8c72",
+                "resourcePath": "objects\\obj_roomManager\\obj_roomManager.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -496,11 +512,20 @@
             }
         },
         {
+            "Key": "c3be1887-3de7-42b1-9962-0007f7acf6f0",
+            "Value": {
+                "id": "c3c07641-9600-4176-aec6-8f9bb33135ac",
+                "resourcePath": "sprites\\spr_mask\\spr_mask.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "c4d9814c-b496-42be-8bf8-f8d8c9bad07b",
             "Value": {
                 "id": "2505909a-aefe-4a31-9e9c-585838f6d747",
                 "resourcePath": "objects\\obj_chiselDamage\\obj_chiselDamage.yy",
                 "resourceType": "GMObject"
+
             }
         },
         {
@@ -605,6 +630,14 @@
                 "id": "6158e794-9c29-430d-b3d3-ec4bf4a86c69",
                 "resourcePath": "objects\\obj_inventory\\obj_inventory.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "f1928418-55cb-4555-98e7-a0e5251ccae2",
+            "Value": {
+                "id": "4dda6ec3-ce55-4638-bfe2-c6dd4a38611d",
+                "resourcePath": "sprites\\spr_background2\\spr_background2.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
