@@ -39,3 +39,13 @@ if (keyboard_check_pressed(ord("S"))) {
 //	instance_create_layer(obj_player.x, obj_player.y, "Instances", obj_player);
 //	show_message("SHOULD BE LOADING");
 //}
+
+if (keyboard_check_pressed(ord("M"))) {
+	if (menu_on) {
+		menu_on = false;
+	} else {
+		menu_on = true;
+	}
+}
+
+if (keyboard_check(vk_escape)) game_end();
