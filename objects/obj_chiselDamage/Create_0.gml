@@ -1,2 +1,2 @@
-/// @description Insert description here
-// You can write your code in this editor
+// Alarm to delete paint after a certain amount of time
+alarm[0] = 1;

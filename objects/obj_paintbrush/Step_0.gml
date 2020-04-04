@@ -1,5 +1,5 @@
 // Click and drag to paint a path
-if (mouse_check_button(mb_left)) {
+if (mouse_check_button(mb_right)) {
 	// Set x and y to the mouse location
 	x = mouse_x;
 	y = mouse_y;
