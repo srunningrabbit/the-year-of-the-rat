@@ -12,8 +12,8 @@ if (sprite_index = spr_rat_R) {
 }
 
 // Check if rat was clicked aka hit
-if (mouse_check_button_pressed(mb_right) and position_meeting(mouse_x, mouse_y, obj_rat)) {
-	hp--;
-}
+//if (mouse_check_button_pressed(mb_left) and position_meeting(mouse_x, mouse_y, obj_rat)) {
+//	hp--;
+//}
 
 if (hp <= 0) instance_destroy();
