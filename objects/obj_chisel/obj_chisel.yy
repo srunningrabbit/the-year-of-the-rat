@@ -1,44 +1,24 @@
 {
-    "id": "e9d6c1ac-d06f-414e-a52a-4415116398c3",
+    "id": "038b62d2-24e9-47e0-8f72-57ebef3c6977",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_inventory",
+    "name": "obj_chisel",
     "eventList": [
         {
-            "id": "d8399aa0-219b-4e32-a41a-956c471a08fc",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 0,
-            "m_owner": "e9d6c1ac-d06f-414e-a52a-4415116398c3"
-        },
-        {
-            "id": "8667a6a3-7c20-4d0d-9406-44246a952306",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 64,
-            "eventtype": 8,
-            "m_owner": "e9d6c1ac-d06f-414e-a52a-4415116398c3"
-        },
-        {
-            "id": "cb6970b4-ed97-41cb-8622-9da4d5a01470",
+            "id": "ca0645cd-c0e5-4f35-b000-e1ff6698b15e",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 3,
-            "m_owner": "e9d6c1ac-d06f-414e-a52a-4415116398c3"
+            "m_owner": "038b62d2-24e9-47e0-8f72-57ebef3c6977"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
     "parentObjectId": "00000000-0000-0000-0000-000000000000",
-    "persistent": true,
+    "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
     "physicsFriction": 0.2,

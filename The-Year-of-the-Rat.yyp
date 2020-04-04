@@ -32,6 +32,14 @@
     },
     "resources": [
         {
+            "Key": "038b62d2-24e9-47e0-8f72-57ebef3c6977",
+            "Value": {
+                "id": "c2b636f2-f8cc-46a3-998a-e0ef7dee07cb",
+                "resourcePath": "objects\\obj_chisel\\obj_chisel.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "05750d05-56d8-4e48-bb30-80826a823751",
             "Value": {
                 "id": "67437227-9245-4786-9b2d-81efb9b26e0e",
@@ -288,6 +296,14 @@
             }
         },
         {
+            "Key": "650844a4-ed5f-40bf-8556-b42893606c75",
+            "Value": {
+                "id": "a0f8cb4a-bd34-4757-aa5f-1fd09cf702ad",
+                "resourcePath": "objects\\obj_miniMap\\obj_miniMap.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "65e701bc-cead-477f-b560-d5f81a1347b4",
             "Value": {
                 "id": "b27c14ab-de80-420b-ad68-e34b4713bdce",
@@ -384,6 +400,14 @@
             }
         },
         {
+            "Key": "9a56f2c2-d947-45b1-bb4a-9faafe246c09",
+            "Value": {
+                "id": "8dc926aa-3023-4739-b8b4-aa2f2277c3fa",
+                "resourcePath": "views\\9a56f2c2-d947-45b1-bb4a-9faafe246c09.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "a9188620-a624-4a5a-83ae-a1b53faf038b",
             "Value": {
                 "id": "9eea2bf8-5fde-48e0-8d82-b93867519666",
@@ -440,6 +464,14 @@
             }
         },
         {
+            "Key": "bb13760d-ac8c-4d75-8c2a-fb71a8ae894f",
+            "Value": {
+                "id": "e7bece17-f94c-423b-b9b3-81f085df8edc",
+                "resourcePath": "sprites\\spr_level1Map\\spr_level1Map.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "be335f65-c854-460f-a1df-ebc58e4e4e83",
             "Value": {
                 "id": "53d475d3-e6df-43db-96b8-f13ddfb9b81c",
@@ -461,6 +493,14 @@
                 "id": "f423ac3d-1545-4bd7-b7ab-ef04c0c79e36",
                 "resourcePath": "views\\c0f55f6f-2c18-4101-92d6-a0bc260f9356.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "c4d9814c-b496-42be-8bf8-f8d8c9bad07b",
+            "Value": {
+                "id": "2505909a-aefe-4a31-9e9c-585838f6d747",
+                "resourcePath": "objects\\obj_chiselDamage\\obj_chiselDamage.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -501,6 +541,14 @@
                 "id": "31dd4b35-e62c-4e4a-a81d-ec1c69ff2981",
                 "resourcePath": "sprites\\spr_rat_L\\spr_rat_L.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "da22fd58-f906-4772-b034-3d2d89131a68",
+            "Value": {
+                "id": "205581b4-e467-4ca4-9342-a4ef13b5ae5d",
+                "resourcePath": "views\\da22fd58-f906-4772-b034-3d2d89131a68.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
