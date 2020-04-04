@@ -336,11 +336,27 @@
             }
         },
         {
+            "Key": "70b822c4-8625-476a-bf44-cd1919e6fc46",
+            "Value": {
+                "id": "202f18c5-d281-4291-a90b-3b847bd56e92",
+                "resourcePath": "sprites\\spr_paintbrush\\spr_paintbrush.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "72d9df62-1bd7-469d-a4d3-d9a91f726cb5",
             "Value": {
                 "id": "20ac1690-2334-4587-95e2-fd0b21df0eb2",
                 "resourcePath": "objects\\obj_music\\obj_music.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "7302d93a-5617-41f1-874c-cd95912fab14",
+            "Value": {
+                "id": "7ab2ac4e-3346-4d77-83bc-48848b37417d",
+                "resourcePath": "sprites\\spr_scissors\\spr_scissors.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

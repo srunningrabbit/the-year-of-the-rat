@@ -11,8 +11,5 @@ if (sprite_index = spr_rat_R) {
 	x -= walking_speed;
 }
 
-// Check if rat was clicked aka hit and take off mouses hp
-/*if (mouse_check_button_pressed(mb_right) and position_meeting(mouse_x, mouse_y, obj_rat)) {
-	hp--;
-}
-if (hp <= 0) instance_destroy(); */
+if (hp <= 0) instance_destroy();
+

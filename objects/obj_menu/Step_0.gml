@@ -1,3 +1,12 @@
+// Open up menu
+if (keyboard_check_pressed(ord("M"))) {
+	if (menu_on) {
+		menu_on = false;
+	} else {
+		menu_on = true;
+	}
+}
+
 // If "S" is pressed then save
 if (keyboard_check_pressed(ord("S"))) {
 	// If a save file already exists delete it when saving again
@@ -39,3 +48,6 @@ if (keyboard_check_pressed(ord("S"))) {
 //	instance_create_layer(obj_player.x, obj_player.y, "Instances", obj_player);
 //	show_message("SHOULD BE LOADING");
 //}
+
+// End the game
+if (keyboard_check(vk_escape)) game_end();
