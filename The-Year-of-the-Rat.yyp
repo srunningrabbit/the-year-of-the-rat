@@ -88,6 +88,14 @@
             }
         },
         {
+            "Key": "219dd03e-169f-455c-acc1-de8fb2104bdd",
+            "Value": {
+                "id": "12d498bd-6eac-4b84-adca-995543b81fc7",
+                "resourcePath": "objects\\obj_hammerDamage\\obj_hammerDamage.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "22dc6e8c-528c-4e1b-bed4-4fc06b3309ec",
             "Value": {
                 "id": "11054c6d-c7c6-4c0b-a5dc-a029c49e4b26",
@@ -293,6 +301,14 @@
                 "id": "43f2d1b5-1aee-46e8-b16f-51ceb9b49667",
                 "resourcePath": "sprites\\spr_collision\\spr_collision.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "63a7d173-a8cc-4d45-95c6-c75ca1ea4059",
+            "Value": {
+                "id": "ab0b2117-887b-4301-aa92-d8182e082e46",
+                "resourcePath": "objects\\obj_hammer\\obj_hammer.yy",
+                "resourceType": "GMObject"
             }
         },
         {
