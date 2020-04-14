@@ -1,10 +1,12 @@
 // Open up menu
-if (keyboard_check_pressed(ord("M"))) {
-	if (menu_on) {
-		menu_on = false;
-	} else {
+if(obj_input.menu_key and canClick){
+	if (not menu_on){
 		menu_on = true;
+	} else {
+		menu_on = false;
 	}
+	canClick = false;
+	alarm[0] = room_speed/4;
 }
 
 // If "S" is pressed then save

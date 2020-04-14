@@ -8,5 +8,6 @@ jump_key = keyboard_check(vk_space);
 resize_window = keyboard_check_pressed(ord("Z"));
 
 map_key = keyboard_check(ord("M"));
+menu_key = keyboard_check(ord("E"));
 
 
