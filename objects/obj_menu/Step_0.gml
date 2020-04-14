@@ -1,5 +1,17 @@
+// Open instructions
+if (keyboard_check_pressed(ord("I"))) {
+	menu_on = false;
+	if (instr_on) {
+		instr_on = false;
+	} else {
+		instr_on = true;
+	}
+}
+		
+
 // Open up menu
-if (keyboard_check_pressed(ord("M"))) {
+if (keyboard_check_pressed(ord("N"))) {
+	instr_on = false;
 	if (menu_on) {
 		menu_on = false;
 	} else {
@@ -9,28 +21,30 @@ if (keyboard_check_pressed(ord("M"))) {
 
 // If "S" is pressed then save
 if (keyboard_check_pressed(ord("S"))) {
-	// If a save file already exists delete it when saving again
-	if (file_exists("Save.ini")) {
-		file_delete("Save.ini");
-	}
-	// Open a file to write info to
-	ini_open("Save.ini");
-	//var SavedRoom = room;
-	// ini_write_real writes a numeric value to the file
-	ini_write_real("SaveGame", "Room", room);
-	// Saves player's x coord
-	ini_write_real("SaveGame", "xPos", obj_player.x);
-	// Save player's y coord
-	ini_write_real("SaveGame", "yPos", obj_player.y);
-	// ini_write_string writes a string to the file
-	// If don't close nothing will be written to disk
-	ini_close();
-	// Tell user the game was saved successfully
-	show_message("Save Successful");
+	if (menu_on) {
+		// If a save file already exists delete it when saving again
+		if (file_exists("Save.ini")) {
+			file_delete("Save.ini");
+		}
+		// Open a file to write info to
+		ini_open("Save.ini");
+		//var SavedRoom = room;
+		// ini_write_real writes a numeric value to the file
+		ini_write_real("SaveGame", "Room", room);
+		// Saves player's x coord
+		ini_write_real("SaveGame", "xPos", obj_player.x);
+		// Save player's y coord
+		ini_write_real("SaveGame", "yPos", obj_player.y);
+		// ini_write_string writes a string to the file
+		// If don't close nothing will be written to disk
+		ini_close();
+		// Tell user the game was saved successfully
+		show_message("Save Successful");
 	
-	// Shows where the file is saved 
-	//save_dir = game_save_id;
-	//show_message(save_dir);
+		// Shows where the file is saved 
+		//save_dir = game_save_id;
+		//show_message(save_dir);
+	}
 }
 
 // I put this into the player object
