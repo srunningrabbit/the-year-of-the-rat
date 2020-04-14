@@ -7,16 +7,17 @@ if (keyboard_check_pressed(ord("I"))) {
 		instr_on = true;
 	}
 }
-		
+
 
 // Open up menu
-if (keyboard_check_pressed(ord("N"))) {
-	instr_on = false;
-	if (menu_on) {
-		menu_on = false;
-	} else {
+if(obj_input.menu_key and canClick){
+	if (not menu_on){
 		menu_on = true;
+	} else {
+		menu_on = false;
 	}
+	canClick = false;
+	alarm[0] = room_speed / 4;
 }
 
 // If "S" is pressed then save
@@ -40,8 +41,8 @@ if (keyboard_check_pressed(ord("S"))) {
 		ini_close();
 		// Tell user the game was saved successfully
 		show_message("Save Successful");
-	
-		// Shows where the file is saved 
+
+		// Shows where the file is saved
 		//save_dir = game_save_id;
 		//show_message(save_dir);
 	}
