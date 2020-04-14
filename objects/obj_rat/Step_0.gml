@@ -5,11 +5,13 @@ if (tilemap_get_at_pixel(layer_tilemap_get_id(layer_get_id("Collision")), bbox_l
 	sprite_index = spr_rat_L;
 }
 
-if (sprite_index = spr_rat_R) {
-	x += walking_speed;
-} else if (sprite_index = spr_rat_L) {
-	x -= walking_speed;
+if (not obj_menu.menu_on and not obj_menu.instr_on and not obj_miniMap.isOpen) {
+	if (sprite_index = spr_rat_R) {
+		x += walking_speed;
+	} else if (sprite_index = spr_rat_L) {
+		x -= walking_speed;
+	}
 }
 
-if (hp <= 0) instance_destroy();
+if (hp < 0) instance_destroy();
 
