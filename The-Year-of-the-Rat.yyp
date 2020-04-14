@@ -4,7 +4,7 @@
     "mvc": "1.0",
     "IsDnDProject": false,
     "configs": [
-
+        
     ],
     "option_ecma": false,
     "parentProject": {
@@ -26,7 +26,7 @@
             }
         ],
         "hiddenResources": [
-
+            
         ],
         "projectPath": "${base_project}"
     },
@@ -93,6 +93,14 @@
                 "id": "3045e4f9-1920-40c7-9248-605801d0aaf3",
                 "resourcePath": "tilesets\\tls_collision\\tls_collision.yy",
                 "resourceType": "GMTileSet"
+            }
+        },
+        {
+            "Key": "219dd03e-169f-455c-acc1-de8fb2104bdd",
+            "Value": {
+                "id": "12d498bd-6eac-4b84-adca-995543b81fc7",
+                "resourcePath": "objects\\obj_hammerDamage\\obj_hammerDamage.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -288,6 +296,14 @@
             }
         },
         {
+            "Key": "63a7d173-a8cc-4d45-95c6-c75ca1ea4059",
+            "Value": {
+                "id": "ab0b2117-887b-4301-aa92-d8182e082e46",
+                "resourcePath": "objects\\obj_hammer\\obj_hammer.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "6493825b-c331-442c-941f-cb85343066bd",
             "Value": {
                 "id": "dbc8906c-275e-4b69-b0d1-8a3c5e0c136a",
@@ -304,12 +320,12 @@
             }
         },
         {
-          "Key": "65e701bc-cead-477f-b560-d5f81a1347b4",
-          "Value": {
-              "id": "b27c14ab-de80-420b-ad68-e34b4713bdce",
-              "resourcePath": "objects\\obj_bckgManager\\obj_bckgManager.yy",
-              "resourceType": "GMObject"
-          }
+            "Key": "65e701bc-cead-477f-b560-d5f81a1347b4",
+            "Value": {
+                "id": "b27c14ab-de80-420b-ad68-e34b4713bdce",
+                "resourcePath": "objects\\obj_bckgManager\\obj_bckgManager.yy",
+                "resourceType": "GMObject"
+            }
         },
         {
             "Key": "674a8caa-3246-420b-87f4-68399811032f",
