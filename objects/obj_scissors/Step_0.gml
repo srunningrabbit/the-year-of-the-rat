@@ -1,5 +1,5 @@
 // Click and drag to cut 
-if (mouse_check_button_pressed(mb_left)) {
+if (obj_input.left_click) {
 	// Set x and y to the mouse location
 	x = mouse_x;
 	y = mouse_y;

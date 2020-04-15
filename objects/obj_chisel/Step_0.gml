@@ -1,5 +1,4 @@
 // Click and drag to chisel 
-//if (mouse_check_button(mb_right)) {
 if(keyboard_check_pressed(ord("C"))) {
 	// Set x and y to the mouse location
 	// Can only use at a certain range from the mouse

@@ -1,7 +1,7 @@
 // Damage enemy if they get hammered ( 3 damage since the player has to get closer to enemy and has more of a chance to get hit by the enemy)
 with other {
-	hp = hp - 3;
-	if (hp <= 0) {
+	hp -= 3;
+	if (hp < 0) {
 		instance_destroy();
 	}
 } 

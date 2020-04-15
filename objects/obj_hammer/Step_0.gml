@@ -1,5 +1,4 @@
 // Click to hammer 
-//if (mouse_check_button(mb_right)) {
 if(keyboard_check_pressed(ord("H"))) {
 	// Set x and y to the mouse position
 	// Can only use at a certain range from the mouse
