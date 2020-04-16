@@ -1,5 +1,6 @@
 // Click and drag to cut 
-if (obj_input.left_click) {
+correct_slot = (obj_inventory.inventory_items[?obj_inventory.inventory_position] = spr_scissors);
+if (obj_input.left_click and correct_slot) {
 	// Set x and y to the mouse location
 	x = mouse_x;
 	y = mouse_y;

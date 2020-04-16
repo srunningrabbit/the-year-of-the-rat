@@ -80,6 +80,14 @@
             }
         },
         {
+            "Key": "1da95ece-5fef-45e5-a065-d23cd5d243c7",
+            "Value": {
+                "id": "3dbf2b8e-f2a1-4230-a0f9-abd6b98c44d6",
+                "resourcePath": "sprites\\spr_hammer\\spr_hammer.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "1df94f3e-9c30-4a29-a061-3d497ca9b4b3",
             "Value": {
                 "id": "3045e4f9-1920-40c7-9248-605801d0aaf3",
@@ -596,6 +604,14 @@
             "Value": {
                 "id": "2731ca43-1409-4d69-8e22-9d98da8c724d",
                 "resourcePath": "sprites\\spr_rat_L\\spr_rat_L.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "cc02030a-30f5-4ae2-8499-4292f234389a",
+            "Value": {
+                "id": "a571290e-ada2-4585-8d2b-3c717eaf600f",
+                "resourcePath": "sprites\\spr_chisel\\spr_chisel.yy",
                 "resourceType": "GMSprite"
             }
         },

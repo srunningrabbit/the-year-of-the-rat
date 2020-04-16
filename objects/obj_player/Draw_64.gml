@@ -1,6 +1,6 @@
 /// Draw individual hearts and choose if they are full or half empty
 
-heart_locations[0] = 0;
+heart_locations = [];
 
 // Local health variables
 player_health = hp;
