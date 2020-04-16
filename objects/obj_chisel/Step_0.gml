@@ -1,6 +1,6 @@
 // Click and drag to chisel 
-//if (mouse_check_button(mb_right)) {
-if(keyboard_check_pressed(ord("C"))) {
+correct_slot = (obj_inventory.inventory_items[?obj_inventory.inventory_position] = spr_chisel);
+if (obj_input.left_click and correct_slot) {
 	// Set x and y to the mouse location
 	// Can only use at a certain range from the mouse
 	x = mouse_x;

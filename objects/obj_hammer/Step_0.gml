@@ -1,6 +1,6 @@
 // Click to hammer 
-//if (mouse_check_button(mb_right)) {
-if(keyboard_check_pressed(ord("H"))) {
+correct_slot = (obj_inventory.inventory_items[?obj_inventory.inventory_position] = spr_hammer);
+if (obj_input.left_click and correct_slot) {
 	// Set x and y to the mouse position
 	// Can only use at a certain range from the mouse
 		x = mouse_x;

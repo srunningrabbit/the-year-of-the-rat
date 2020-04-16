@@ -1,4 +1,5 @@
 /// Run state
+
 script_execute(state);
 sprite_index = sprite[face, movement];
 
@@ -11,25 +12,4 @@ if (hp <= 0) {
 // Increase player health over time
 if (hp < max_hp and not place_meeting(x, y, obj_rat)) {
 	alarm[1] = 1;
-}
-
-// If "L" is pressed then load the game
-if (keyboard_check_pressed(ord("L"))) {
-	if (obj_menu.menu_on) {
-		// Delete player
-		instance_destroy(obj_player);
-		// Load the save file
-		ini_open("Save.ini");
-		//Read from ini file
-		room = ini_read_real("SaveGame", "room", 0);
-		//x = ini_read_real("SaveGame", "xPos", 0);
-		//y = ini_read_real("SaveGame", "yPos", 0);
-		xpos = ini_read_real("SaveGame", "xPos", 0);
-		ypos = ini_read_real("SaveGame", "yPos", 0);
-		//Close the file
-		ini_close();
-		// Create new player at the saved position
-		//instance_create_depth(x, y, 20, obj_player);
-		instance_create_layer(xpos, ypos, "Instances", obj_player);
-	}
 }

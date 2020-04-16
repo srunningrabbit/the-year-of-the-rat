@@ -19,6 +19,9 @@ jumping = false;
 hp = 50;
 max_hp = 50;
 
+// Cheese collecting
+cheese_amnt = 0;
+
 // Sprite array
 sprite[RIGHT, IDLE] = spr_player_idle_R;
 sprite[LEFT, IDLE] = spr_player_idle_L;
