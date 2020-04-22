@@ -9,14 +9,15 @@ if (hp <= 0) {
 	game_restart();
 }
 
-if (cheese_amnt == 1 and room = room0 and not continue1) {
+// Finding cheese sculpture with end sequence
+if (cheese_amnt == 5 and room = room0 and not continue1) {
 	complete_cheese1 = true;
 	complete_cheese2 = false;
 	if (keyboard_check(vk_enter)) {
 		complete_cheese1 = false;
 		continue1 = true;
 	}
-} else if (cheese_amnt == 1 and room = room1 and not continue2) {
+} else if (cheese_amnt == 6 and room = room1 and not continue2) {
 	complete_cheese1 = false;
 	complete_cheese2 = true;
 	if (keyboard_check(vk_enter)) {
