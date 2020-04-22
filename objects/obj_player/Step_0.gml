@@ -1,4 +1,5 @@
 /// Run state
+
 script_execute(state);
 sprite_index = sprite[face, movement];
 
@@ -8,28 +9,28 @@ if (hp <= 0) {
 	game_restart();
 }
 
+// Finding cheese sculpture with end sequence
+if (cheese_amnt == 5 and room = room0 and not continue1) {
+	complete_cheese1 = true;
+	complete_cheese2 = false;
+	if (keyboard_check(vk_enter)) {
+		complete_cheese1 = false;
+		continue1 = true;
+	}
+} else if (cheese_amnt == 6 and room = room1 and not continue2) {
+	complete_cheese1 = false;
+	complete_cheese2 = true;
+	if (keyboard_check(vk_enter)) {
+		complete_cheese2 = false;
+		continue2 = true;
+	}
+}
+
+if (continue2) {
+	endSculpture = true;
+}
+
 // Increase player health over time
 if (hp < max_hp and not place_meeting(x, y, obj_rat)) {
 	alarm[1] = 1;
-}
-
-// If "L" is pressed then load the game
-if (keyboard_check_pressed(ord("L"))) {
-	if (obj_menu.menu_on) {
-		// Delete player
-		instance_destroy(obj_player);
-		// Load the save file
-		ini_open("Save.ini");
-		//Read from ini file
-		room = ini_read_real("SaveGame", "room", 0);
-		//x = ini_read_real("SaveGame", "xPos", 0);
-		//y = ini_read_real("SaveGame", "yPos", 0);
-		xpos = ini_read_real("SaveGame", "xPos", 0);
-		ypos = ini_read_real("SaveGame", "yPos", 0);
-		//Close the file
-		ini_close();
-		// Create new player at the saved position
-		//instance_create_depth(x, y, 20, obj_player);
-		instance_create_layer(xpos, ypos, "Instances", obj_player);
-	}
 }

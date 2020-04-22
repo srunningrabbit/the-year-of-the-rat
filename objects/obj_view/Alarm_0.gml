@@ -1,2 +1,2 @@
-///Alarm 0
+/// @desc Alarm 0
 window_center();

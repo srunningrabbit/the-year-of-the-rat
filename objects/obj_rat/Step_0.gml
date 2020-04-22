@@ -1,7 +1,11 @@
 // Rat movement and position
-if (tilemap_get_at_pixel(layer_tilemap_get_id(layer_get_id("Collision")), bbox_left - 1, bbox_bottom + 1) = 0) {
+if (tilemap_get_at_pixel(layer_tilemap_get_id(layer_get_id("Collision")), bbox_left - 1, bbox_bottom + 1) = 0
+	or tilemap_get_at_pixel(layer_tilemap_get_id(layer_get_id("Collision")), bbox_left - 1, bbox_top + 10) 
+	or tilemap_get_at_pixel(layer_tilemap_get_id(layer_get_id("Collision")), bbox_left - 1, bbox_bottom - 10) = 1) {
 	sprite_index = spr_rat_R;
-} else if (tilemap_get_at_pixel(layer_tilemap_get_id(layer_get_id("Collision")), bbox_right + 1, bbox_bottom + 1) = 0) {
+} else if (tilemap_get_at_pixel(layer_tilemap_get_id(layer_get_id("Collision")), bbox_right + 1, bbox_bottom + 1) = 0
+	or tilemap_get_at_pixel(layer_tilemap_get_id(layer_get_id("Collision")), bbox_right + 1, bbox_top + 10) = 1
+	or tilemap_get_at_pixel(layer_tilemap_get_id(layer_get_id("Collision")), bbox_right + 1, bbox_bottom - 10) = 1) {
 	sprite_index = spr_rat_L;
 }
 

@@ -1,1 +1,0 @@
-global.particle_system = part_system_create_layer("Instances", true);

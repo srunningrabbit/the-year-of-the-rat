@@ -1,7 +1,7 @@
 // Damage enemy if they get chiseled ( 2 damage )
 with other {
-	hp = hp - 2;
-	if (hp <= 0) {
+	hp -= 2;
+	if (hp < 0) {
 		instance_destroy();
 	}
 } 

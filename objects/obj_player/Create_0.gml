@@ -20,6 +20,14 @@ prev_sprite_index = spr_player_idle_R;
 hp = 50;
 max_hp = 50;
 
+// Cheese collecting
+cheese_amnt = 0;
+complete_cheese1 = false;
+complete_cheese2 = false;
+continue1 = false;
+continue2 = false;
+endSculpture = false;
+
 // Sprite array
 sprite[RIGHT, IDLE] = spr_player_idle_R;
 sprite[LEFT, IDLE] = spr_player_idle_L;

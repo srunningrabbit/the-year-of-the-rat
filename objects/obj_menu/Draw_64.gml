@@ -7,13 +7,15 @@ if (instr_on or menu_on) {
 	
 		draw_set_color(c_white);
 		draw_set_alpha(1);
-		draw_text_transformed(view_w / 2 - 50, view_h / 2 - 50, "INSTRUCTIONS:", 0.5, 0.5, 0);
+		draw_text_transformed(view_w / 2 - 50, view_h / 2 - 50, "INSTRUCTIONS", 0.5, 0.5, 0);
 		draw_text_transformed(view_w / 2 - 50, view_h / 2 - 30, "MOVE: WASD", 0.4, 0.4, 0);
 		draw_text_transformed(view_w / 2 - 50, view_h / 2 - 20, "SPRINT: SHIFT", 0.4, 0.4, 0);
 		draw_text_transformed(view_w / 2 - 50, view_h / 2 - 10, "JUMP: SPACEBAR", 0.4, 0.4, 0);
-		draw_text_transformed(view_w / 2 - 50, view_h / 2 + 0, "DRAW PATH: HOLD RIGHT CLICK ON MOUSE", 0.4, 0.4, 0);
-		draw_text_transformed(view_w / 2 - 50, view_h / 2 + 10, "MENU: N", 0.4, 0.4, 0);
-		draw_text_transformed(view_w / 2 - 50, view_h / 2 + 20, "MINIMAP: M", 0.4, 0.4, 0);
+		draw_text_transformed(view_w / 2 - 50, view_h / 2 + 0, "MENU: E", 0.4, 0.4, 0);
+		draw_text_transformed(view_w / 2 - 50, view_h / 2 + 10, "MINIMAP: M", 0.4, 0.4, 0);
+		draw_text_transformed(view_w / 2 - 50, view_h / 2 + 20, "DRAW PATH: HOLD RIGHT CLICK", 0.4, 0.4, 0);
+		draw_text_transformed(view_w / 2 - 50, view_h / 2 + 30, "TOOLS: LEFT AND RIGHT ARROW", 0.4, 0.4, 0);
+		draw_text_transformed(view_w / 2 - 50, view_h / 2 + 40, "       KEYS TO SELECT IN INVENTORY", 0.4, 0.4, 0);
 	}
 	
 	if (menu_on) {
