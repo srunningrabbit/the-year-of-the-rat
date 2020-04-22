@@ -112,6 +112,14 @@
             }
         },
         {
+            "Key": "2249b664-5e4d-4f93-94dd-b93b8eefa104",
+            "Value": {
+                "id": "e7223019-0005-47e3-96dd-41583c1cfb1f",
+                "resourcePath": "sprites\\spr_player_jump_R_U\\spr_player_jump_R_U.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "22dc6e8c-528c-4e1b-bed4-4fc06b3309ec",
             "Value": {
                 "id": "11054c6d-c7c6-4c0b-a5dc-a029c49e4b26",
@@ -272,6 +280,14 @@
             }
         },
         {
+            "Key": "4b2a25a3-a4d9-4d80-8f27-f0ff830e66d7",
+            "Value": {
+                "id": "56553330-8a8b-49d7-99d7-00c424cbf018",
+                "resourcePath": "sprites\\spr_cheeseSculpture2\\spr_cheeseSculpture2.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "4c198cf5-6e55-4837-8057-8a3cff612db4",
             "Value": {
                 "id": "a178aadd-6e2a-4e40-adf0-98f875da9cc7",
@@ -333,6 +349,14 @@
                 "id": "07afefb0-8728-4ddd-b5dd-c46fa8f6fd4c",
                 "resourcePath": "views\\5615435d-67e4-484a-9954-bd9447fc4bbd.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "5819cc86-fb55-4180-9bbb-6272636b69c8",
+            "Value": {
+                "id": "059054da-f13d-4720-beca-f7126c6abfe4",
+                "resourcePath": "sprites\\spr_completedSculpture\\spr_completedSculpture.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -428,6 +452,14 @@
             "Value": {
                 "id": "202f18c5-d281-4291-a90b-3b847bd56e92",
                 "resourcePath": "sprites\\spr_paintbrush\\spr_paintbrush.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "72a2d0c0-16c7-459e-924f-bb4654104ef7",
+            "Value": {
+                "id": "4d59f864-e96d-4487-81fa-5c9b812275fe",
+                "resourcePath": "sprites\\spr_player_jump_L_U\\spr_player_jump_L_U.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -549,6 +581,14 @@
                 "id": "9eea2bf8-5fde-48e0-8d82-b93867519666",
                 "resourcePath": "options\\linux\\options_linux.yy",
                 "resourceType": "GMLinuxOptions"
+            }
+        },
+        {
+            "Key": "ac836aff-15d7-4868-9699-6d239165eb77",
+            "Value": {
+                "id": "f43336be-6e20-4771-9a42-4ecbf8de670e",
+                "resourcePath": "sprites\\spr_homeScreen\\spr_homeScreen.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -692,6 +732,14 @@
             "Value": {
                 "id": "ef1124c5-6888-4ecf-b7d4-d2149c5d4031",
                 "resourcePath": "sprites\\spr_paint\\spr_paint.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "d3a729ec-47a6-48fe-b721-84f7d5a45f8b",
+            "Value": {
+                "id": "1d99c996-5627-4913-a8e9-fb273f2f14f1",
+                "resourcePath": "sprites\\spr_cheeseSculpture1\\spr_cheeseSculpture1.yy",
                 "resourceType": "GMSprite"
             }
         },
