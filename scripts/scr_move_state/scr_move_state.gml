@@ -49,15 +49,13 @@ if (move < 0 && jumping == false) {
 
 // Jumping while moving
 if (jumping == true) {
+	
 	// Face direction of movement
 	if (move > 0) {
-		if (vsp > 0) face = UP_RIGHT_D;
-		else face = UP_RIGHT_U;
-		
+		if (vsp < 0) face = UP_RIGHT_U;
 		previousFace = RIGHT;
 	} else if (move < 0) {
-		if (vsp > 0) face = UP_LEFT_D;
-		else face = UP_LEFT_U;
+		if (vsp < 0) face = UP_LEFT_U;
 		previousFace = LEFT;
 	}
 }
@@ -67,12 +65,10 @@ if (jumping == true && move == 0) {
 	movement = MOVE;
 	// Face previous direction of movement
 	if (previousFace == RIGHT) {
-		if (vsp > 0) face = UP_RIGHT_D;
-		else face = UP_RIGHT_U;
+		if (vsp < 0) face = UP_RIGHT_U;
 	}
 	if (previousFace == LEFT) {
-		if (vsp > 0) face = UP_LEFT_D;
-		else face = UP_LEFT_U;
+		if (vsp < 0) face = UP_LEFT_U;
 	}
 }
 
@@ -83,8 +79,8 @@ if (jumping == false && obj_input.right_key == false && obj_input.left_key == fa
 }
 
 // Face sprite toward face direction
-if (face == RIGHT || face == UP_RIGHT_U || face == UP_RIGHT_D) obj_player.dir = RIGHT;
-if (face == LEFT || face == UP_LEFT_U || face == UP_LEFT_D) obj_player.dir = LEFT;
+if (face == RIGHT || face == UP_RIGHT_U) obj_player.dir = RIGHT;
+if (face == LEFT || face == UP_LEFT_U) obj_player.dir = LEFT;
 
 /*
 Collision handling
@@ -141,21 +137,12 @@ if (place_meeting(x, y + 1, obj_solid) || (p1 != 0 || p2 != 0) && bbox_side != b
 	jumping = true;
 }
 
-/*
-// Squat
-if (obj_input.down_key_pressed && move == 0) {
-	alarm[1] = idleTimer;
-	if (face == RIGHT) {
-		face = DOWN_RIGHT;
-		previousFace = RIGHT;
-	}
-	else if (face == LEFT) {
-		face = DOWN_LEFT;
-		previousFace = LEFT;
-	}
-	//add freeze
+//Handle switching to jump and other anims
+if (sprite_index != prev_sprite_index) {
+	image_index = 0;
+	prev_sprite_index = sprite_index;
 }
-if (obj_input.down_key_released) {
-	face = previousFace;
+
+if ((sprite_index == spr_player_jump_R_U || sprite_index == spr_player_jump_L_U) && image_index == image_number - 1) {
+	image_index = image_number - 1;	
 }
-*/
